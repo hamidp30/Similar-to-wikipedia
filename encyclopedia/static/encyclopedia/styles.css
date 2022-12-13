@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 50vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.header {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.header_title {
+    margin-bottom: 45px;
+}
+
+.inp{
+    width:98%;
+    margin-top: 5px;
+}
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+.btnedit {
+    background-color: #007bff;
+    border-radius: 3px;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.btndelete {
+    background-color: #ff0019d1;
+    border-radius: 3px;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.btnedit:hover {
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+}
+.btndelete:hover {
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+}

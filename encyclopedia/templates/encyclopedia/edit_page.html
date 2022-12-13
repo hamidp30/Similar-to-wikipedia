@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Edit param
+{% endblock %}
+
+{% block body %}
+<h1>{{title}}</h1>
+<form action="{% url 'wiki:edit' title %}" method="POST">
+    {% csrf_token %}
+    <div class="fieldWrapper">
+        <input class="inp" type="text" name="subject" value="{{title}}" required="" id="id_subject" disabled>
+    </div>
+    <div class="fieldWrapper">
+        <textarea class="inp" name="message" cols="40" rows="10" required="" id="id_message">{{contant}}</textarea>
+    </div>
+    <div class="fieldWrapper">
+    <input class="btnedit" type="submit" value="Publish">
+    </div>
+</form>
+{% endblock %}
